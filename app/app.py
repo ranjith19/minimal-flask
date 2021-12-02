@@ -1,9 +1,11 @@
 from flask import Flask, jsonify
+import socket
 
 app = Flask(__name__)
 
 @app.route("/status")
 def hello_world():
+    print(socket.gethostname())
     return jsonify(dict(status=True))
 
 
