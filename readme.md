@@ -1,5 +1,5 @@
 
-[Objective](/objectiv.png)
+![Objective](objective.png)
 
 # Run this
 
