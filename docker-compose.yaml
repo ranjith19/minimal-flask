@@ -27,5 +27,5 @@ services:
     ports:
       - 3992:80
     depends_on:
-      - backend1
-      - backend2
+      - "backend1"
+      - "backend2"
